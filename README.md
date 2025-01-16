@@ -1,4 +1,4 @@
-# Predicting Melt Pool Stability in Wire Arc Additive Manufacturing (WAAM) using CNNs and Vision Transformers.**
+# Predicting Melt Pool Stability in Additive Manufacturing using CNNs and Vision Transformers
 
 MeltPoolAI leverages deep learning to enhance the precision of Wire Arc Additive Manufacturing (WAAM) by predicting melt pool stability. This project employs CNNs and Vision Transformers for advanced image analysis, improving additive manufacturing quality and reliability.
 
@@ -48,12 +48,13 @@ Since the dataset is not included, prepare it as follows:
 
 ## Results
 
-| Model         | Validation Accuracy Before Noise | Validation Accuracy After Noise |
+| Model         | Peak Validation Accuracy (%)                                       |
+                | Validation Accuracy Before Noise | Validation Accuracy After Noise |
 |---------------|----------------------------------|---------------------------------|
-| VGG16         | 89.94%                           | 96.22%                          |
-| ResNet18      | 82.14%                           | 86.49%                          |
-| DenseNet169   | 84.09%                           | 85.95%                          |
-| ViT Base      | 95.45%                           | 96.22%                          |
+| VGG16         | 89.94                            | 96.22%                          |
+| ResNet18      | 82.14                            | 86.49%                          |
+| DenseNet169   | 84.09                            | 85.95%                          |
+| ViT Base      | 95.45                            | 96.22%                          |
 | ViT Large     | 98.70%                           | 98.38%                          |
 
 - Vision Transformers demonstrated superior performance compared to CNNs due to their ability to capture global relationships in melt pool images.
