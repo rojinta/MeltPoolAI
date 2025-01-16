@@ -49,7 +49,7 @@ Since the dataset is not included, prepare it as follows:
 ## Results
 
 | Model         | Peak Validation Accuracy (%)                                       |
-|               | Validation Accuracy Before Noise | Validation Accuracy After Noise |
+|---------------| Validation Accuracy Before Noise | Validation Accuracy After Noise |
 |---------------|----------------------------------|---------------------------------|
 | VGG16         | 89.94                            | 96.22%                          |
 | ResNet18      | 82.14                            | 86.49%                          |
