@@ -1,4 +1,4 @@
-# Predicting Melt Pool Stability in Additive Manufacturing using CNNs and Vision Transformers
+# Predicting Melt Pool Stability in Additive Manufacturing Using CNNs and Vision Transformers
 
 MeltPoolAI leverages deep learning to enhance the precision of Wire Arc Additive Manufacturing (WAAM) by predicting melt pool stability. This project employs CNNs and Vision Transformers for advanced image analysis, improving additive manufacturing quality and reliability.
 
