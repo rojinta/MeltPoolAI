@@ -48,15 +48,13 @@ Since the dataset is not included, prepare it as follows:
 
 ## Results
 
-| Model         | Peak Validation Accuracy (%)                                       |
-|---------------| Validation Accuracy Before Noise | Validation Accuracy After Noise |
-|---------------|----------------------------------|---------------------------------|
-| VGG16         | 89.94                            | 96.22%                          |
-| ResNet18      | 82.14                            | 86.49%                          |
-| DenseNet169   | 84.09                            | 85.95%                          |
-| ViT Base      | 95.45                            | 96.22%                          |
-| ViT Large     | 98.70%                           | 98.38%                          |
+|Model          | Validation Accuracy Before Noise (%) | Validation Accuracy After Noise (%) |
+|---------------|--------------------------------------|-------------------------------------|
+| VGG16         | 89.94                                | 96.22                              |
+| ResNet18      | 82.14                                | 86.49                              |
+| DenseNet169   | 84.09                                | 85.95                              |
+| ViT Base      | 95.45                                | 96.22                              |
+| ViT Large     | 98.70                                | 98.38                              |
 
 - Vision Transformers demonstrated superior performance compared to CNNs due to their ability to capture global relationships in melt pool images.
 - Adding Gaussian noise to the dataset improved the generalizability of nearly all models.
-
