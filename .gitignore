@@ -1,0 +1,19 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# VSCode settings and files
+.vscode/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+env/
+venv/
+.venv/
+
+# Ignore data files
+data/
