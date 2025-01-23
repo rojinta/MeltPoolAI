@@ -1,0 +1,8 @@
+Best Hyperparameters:
+Learning Rate: 0.00001
+Batch Size: 16
+Optimizer: Adam
+
+Best Metrics:
+Training Accuracy: 95.38%
+Validation Accuracy: 98.70%
