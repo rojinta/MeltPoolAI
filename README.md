@@ -40,10 +40,10 @@ Since the dataset is not included, prepare it as follows:
    ```
 
 ### Running the Models
-- Navigate to the `models/` folder and select the desired architecture.
+- Navigate to the `scripts/` folder and select the desired architecture.
 - For example, to run the Vision Transformer Base model:
    ```bash
-   python vit_base.py
+   python training_vit_base.py
    ```
 
 ## Results
